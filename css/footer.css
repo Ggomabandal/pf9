@@ -1,0 +1,113 @@
+footer {
+  background-color: #9B0F22;
+}
+footer div.wrap {
+  
+  color: white;
+}
+footer div.wrap div.first {
+  
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+footer div.wrap div.first h2 {
+  
+  width: 244px;
+  height: 30px;
+  background-image: url(../img/footer.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 0;
+}
+footer div.wrap div.first ul.sns {
+  
+  gap: 10px;
+}
+footer div.wrap div.first ul.sns li {
+  
+}
+footer div.wrap div.first ul.sns li a {
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 0;
+}
+footer div.wrap div.first ul.sns li:nth-child(1) a {
+  background-image: url(../img/insta.png);
+}
+footer div.wrap div.first ul.sns li:nth-child(2) a {
+  background-image: url(../img/youtube.png);  
+}
+footer div.wrap div.first ul.sns li:nth-child(3) a {
+  background-image: url(../img/kakao.png);
+}
+footer div.wrap div.first ul.sns li:nth-child(4) a {
+  background-image: url(../img/blog.png);  
+}
+footer div.wrap div.first ul.sns li:nth-child(5) a {
+  background-image: url(../img/faceb.png);   
+}
+footer div.wrap div.second {
+  justify-content: space-between;
+}
+footer div.wrap div.second div.info {
+  
+  width: 60%;
+  font-size: 13px;
+  line-height: 1.5;
+}
+footer div.wrap div.second div.info ul.list {
+  
+  gap: 20px;
+}
+footer div.wrap div.second div.info ul.list li {
+  
+}
+footer div.wrap div.second div.info ul.list li a {
+  
+  color: #E48F9A;
+}
+footer div.wrap div.second div.info ul.list li:nth-child(2) a {
+  
+  color: white;
+}
+footer div.wrap div.second div.info address {
+  
+  color: #E48F9A;
+}
+footer div.wrap div.second div.info address strong {
+  
+  color: white;
+}
+footer div.wrap div.second div.info p {
+  
+  color: #E48F9A;
+}
+footer div.wrap div.second div.phone {
+  
+  width: 19%;
+  line-height: 1.2;
+}
+footer div.wrap div.second div.phone h3 {
+  
+  font-size: 20px;
+}
+footer div.wrap div.second div.phone strong {
+  
+  font-size: 44px;
+}
+footer div.wrap div.second div.storephone {
+  
+  width: 14%;
+  line-height: 1.2;
+}
+footer div.wrap div.second div.storephone h3 {
+  
+  font-size: 20px;
+}
+footer div.wrap div.second div.storephone strong {
+  
+  font-size: 43px;
+}

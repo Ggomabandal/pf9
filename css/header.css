@@ -1,0 +1,47 @@
+header {
+  
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+}
+header div.wrap {
+  
+  justify-content: space-between;
+  padding: 0 15px;
+  box-sizing: border-box;
+  align-items: center;
+}
+header div.wrap h1 {
+  
+  display: flex;
+  align-items: center;
+}
+header div.wrap h1 a {
+  
+  width: 270px;
+  height: 22px;
+  display: block;
+  background-image: url(../img/logo.png);
+  background-size: contain;
+  background-position: center;
+  font-size: 0;
+  background-repeat: no-repeat;
+}
+header div.wrap ul.gnb {
+  
+  justify-content: space-between;
+}
+header div.wrap ul.gnb li {
+  
+}
+header div.wrap ul.gnb li a {
+  font-size: 23px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  width: 180px;
+  justify-content: center;
+  position: relative;
+  font-weight: 500;
+}

@@ -1,0 +1,17 @@
+header
+header>div.wrap>h1.h3+ul.gnb>li*5
+title
+app&store
+section#appstore>div.wrap>h2.hide+div*2>(div>h3+a.rbox+ul.hashtag>li*3>p)+div>img
+menu
+section#menu>div.wrap>h2+p+ul>li*9>a>img+figcaption
+merrycount
+section#merry>div.wrap.flex>h2.hide+(div.yogurt>(div.text-eng>strong)+div.text)+(div.img>span>img)+div.count>(div.seller>strong)+div.million>span.counter
+이벤트
+section#event>div.wrap
+비디오
+section#video>div.wrap>h2.h3+p.p+(ul.newsstory>li*2>a)+div*2
+footer
+footer>div.wrap>(div.first>h2.h4+ul.sns>li*5>a)+div.second>(div.info>(ul.list>li*3>a)+address+p.p)+(div.phone>h3.h4+p)+div.storephone>h3.h4+p)
+네비게이션 리모컨
+div.wrap>ul.nav>li*3>a

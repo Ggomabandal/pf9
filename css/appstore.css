@@ -1,0 +1,128 @@
+section#appstore {
+  
+}
+section#appstore div.wrap {
+  
+  gap: 20px;
+}
+section#appstore div.wrap h2 {
+  
+}
+section#appstore div.wrap div.app {
+  width: 50%;
+  padding: 20px 70px;
+  box-sizing: border-box;
+  background-color: #AD172B;
+  border-radius: 0 0 20px 20px;
+}
+section#appstore div.wrap div.app div.contents {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+}
+section#appstore div.wrap div.app div.contents h3 {
+  
+  color: white;
+}
+section#appstore div.wrap div.app div.contents a {
+  
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section#appstore div.wrap div.app div.contents ul.hashtag {
+  
+  gap: 15px;
+}
+section#appstore div.wrap div.app div.contents ul.hashtag li {
+  
+}
+section#appstore div.wrap div.app div.contents ul.hashtag li p {
+  
+}
+section#appstore div.wrap div.app div.img {
+  
+}
+section#appstore div.wrap div.app div.img img {
+  
+}
+section#appstore div.wrap div.store {
+  width: 50%;
+  padding: 20px 70px;
+  box-sizing: border-box;
+  background-color: #E7E4E4;
+  border-radius: 0 0 20px 20px;
+  position: relative;
+}
+section#appstore div.wrap div.store::after{
+  content: "";
+  display: block;
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  right: -75px;
+  top: 0;
+  background-color: #E7E4E4;
+}
+
+section#appstore div.wrap div.store div.contents {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+}
+section#appstore div.wrap div.store div.contents h3 {
+  
+}
+section#appstore div.wrap div.store div.contents form {
+  
+  width: 210px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+}
+section#appstore div.wrap div.store div.contents form input {
+  
+  width: 130px;
+  height: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  font-size: 15px;
+  outline: none;
+}
+section#appstore div.wrap div.store div.contents form button {
+  
+  background-color: white;
+  border: none;
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/search.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 0;
+}
+section#appstore div.wrap div.store div.contents ul.hashtag {
+  
+}
+section#appstore div.wrap div.store div.contents ul.hashtag li {
+  
+}
+section#appstore div.wrap div.store div.contents ul.hashtag li p {
+  
+}
+section#appstore div.wrap div.store div.img {
+  
+}
+section#appstore div.wrap div.store div.img img {
+  
+}

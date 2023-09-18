@@ -1,0 +1,134 @@
+section#merry {
+  position: relative;
+  height: 655px;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+section#merry::before {
+  background-image: url(../img/merry_bg1.png);
+}
+section#merry::after {
+  right: 0;
+  background-image: url(../img/merry_bg2.png);
+}
+section#merry div.wrap {
+  
+}
+section#merry div.wrap h2 {
+  
+}
+section#merry div.wrap div.yogurt {
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+}
+section#merry div.wrap div.yogurt div.text-eng {
+  
+}
+section#merry div.wrap div.yogurt div.text-eng strong {
+  
+}
+section#merry div.wrap div.yogurt div.text {
+  
+}
+section#merry div.wrap div.img {
+  width: 34%;
+}
+section#merry div.wrap div.img img {
+  width: 500px;
+}
+section#merry div.wrap div.count {
+  width: 33%;
+  justify-content: center;
+  line-height: 2;
+}
+section#merry div.wrap div.count div.seller {
+  
+}
+section#merry div.wrap div.count div.seller strong {
+  
+}
+section#merry div.wrap div.count div.seller span.block {
+  
+}
+section#merry div.wrap div.count div.million {
+  
+}
+section#merry div.wrap div.count div.million span.counter {
+  
+}  
+section#merry::before,section#merry::after {
+  content: "";
+  width: 100%;
+  height: 813.6px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+section#merry div.wrap {
+  height: 100%;
+  color: white;
+  padding-bottom: 0;
+}
+section#merry div.wrap h2 {
+  
+}
+section#merry div.wrap div.yogurt {
+  width: 33%;
+  justify-content: center;
+  line-height: 2;
+}
+section#merry div.wrap div.yogurt div.text-eng {
+  font-size: 39px;
+  font-weight: 300;
+}
+section#merry div.wrap div.yogurt div.text-eng strong {
+  font-weight: 500;
+}
+section#merry div.wrap div.yogurt div.text {
+  font-weight: 500;
+  font-size: 43px;
+}
+section#merry div.wrap div.img {
+  width: 34%;
+  height: 100%;
+}
+section#merry div.wrap div.img img {
+  width: 100%;
+  height: 100%;
+  animation-name: deg3;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes deg3{
+  50%{ /* 시작 */
+    transform: rotate(3deg);
+  }
+  100%
+   transform: rotate(-3deg);
+  }
+}
+section#merry div.wrap div.count {
+  width: 33%;
+  justify-content: center;
+  line-height: 2;
+}
+section#merry div.wrap div.count div.seller {
+  font-size: 35px;
+}
+section#merry div.wrap div.count div.seller strong {
+  font-weight: 500;
+  font-size: 44px;
+}
+section#merry div.wrap div.count div.seller span.block {
+  
+}
+section#merry div.wrap div.count div.million {
+  font-size: 35px;
+}
+section#merry div.wrap div.count div.million span.counter {
+  font-weight: 500;
+  font-size: 120px;
+  line-height: 1;
+}

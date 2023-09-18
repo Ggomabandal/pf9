@@ -1,0 +1,62 @@
+section#video {
+  
+  background-image: url(../img/txtbg.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+section#video div.wrap {
+  
+  line-height: 2;
+}
+section#video div.wrap h2 {
+  
+  font-weight: 500;
+  position: relative;
+}
+section#video div.wrap h2::after {
+  content: "";
+  width: 24px;
+  height: 17px;
+  display: block;
+  background-image: url(../img/logom.png);
+  position: absolute;
+  top: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  right: calc(50% - 105px);
+}
+section#video div.wrap p {
+  
+  margin-bottom: 50px;
+  color: #999B9D;
+  font-size: 18px;
+}
+section#video div.wrap ul {
+  
+  justify-content: center;
+}
+section#video div.wrap ul li {
+  
+  padding: 0 20px;
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+}
+section#video div.wrap ul li:nth-child(1)::after {
+  content: "";
+  height: 18px;
+  display: block;
+  border: 1px solid #DDDDDD;
+  position: absolute;
+  right: -1px;
+  top: 23px;
+}
+
+section#video div.wrap ul li a {
+  
+  font-size: 30px;
+  color: #666666;
+}
+section#video div.wrap div {
+  
+}

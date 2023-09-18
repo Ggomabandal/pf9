@@ -1,0 +1,67 @@
+section#menu {
+  
+}
+section#menu div.wrap {
+  text-align: center;
+  background-image: url(../img/txtbg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 200px;
+}
+section#menu div.wrap h2 {
+  
+}
+section#menu div.wrap p {
+  margin: 25px 0 60px 0;
+}
+section#menu div.wrap ul {
+  
+}
+section#menu div.wrap ul .slick-prev {
+  left: calc(50% - 144px - 288px);
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+}
+section#menu div.wrap ul .slick-prev::before {
+  background-image: url(../img/left.svg);
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 0;
+}
+section#menu div.wrap ul .slick-next {
+  right: calc(50% - 144px - 288px);
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+}
+section#menu div.wrap ul .slick-next::before {
+  background-image: url(../img/right.svg);
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 0;
+}
+section#menu div.wrap ul li {
+  
+}
+section#menu div.wrap ul li a {
+  display: block;
+  width: 100%;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+section#menu div.wrap ul li a img {
+  width: 100%;
+}
+section#menu div.wrap ul li a figcaption {
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+}
