@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>요거프레소</title>
+    <!-- 리셋 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- 구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <!-- css연결 -->
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/appstore.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/merry.css">
+    <link rel="stylesheet" href="css/video.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <!-- 자바스크립트 제이쿼리 -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"type=text/javascript></script>
+    <script type="text/javascript"></script>
+    <!-- 슬릭 -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('.titleimgani').slick({
+            dots:true,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            speed:3000
+        });
+        $('.menulistani').slick({
+            infinite: true,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            speed:1000
+        });
+    });
+    </script>
+</head>
+<body>
+    <!-- 상단영역 -->
+    <header>
+        <div class="wrap flex">
+            <h1 class="h3"><a href="">YOGERPRESSO</a></h1>
+            <ul class="gnb flex">
+                <li><a href="">BRAND</a></li>
+                <li><a href="">MENU</a></li>
+                <li><a href="">STORE</a></li>
+                <li><a href="">FRANCHISE</a></li>
+                <li><a href="">COMMUNITY</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- 타이틀영역 -->
+    <div id="title">
+        <div class="wrap">
+            <ul class="titleimgani">
+                <li class="ti1"><a href=""></a></li>
+                <li class="ti2"><a href=""></a></li>
+                <li class="ti3"><a href=""></a></li>
+                <li class="ti4"><a href=""></a></li>
+                <li class="ti5"><a href=""></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 섹션 app&store -->
+    <section id="appstore">
+        <div class="wrap flex padding100">
+            <h2 class="hide">App&Store</h2>
+            <div class="app flex">
+                <div class="contents">
+                    <h3 class="h3">오늘부터 단골손님</h3>
+                    <a href="" class="rbox">앱 다운로드</a>
+                    <ul class="hashtag flex">
+                        <li>
+                            <p>#스탬프</p>
+                        </li>
+                        <li>
+                            <p>#적립하고</p>
+                        </li>
+                        <li>
+                            <p>#혜택받자</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="img"><img src="img/app.png" alt=""></div>
+            </div>
+            <div class="store flex">
+                <div class="contents">
+                    <h3 class="h3">내주변 매장 찾기</h3>
+                    <form action="" class="search"><input type="text" placeholder="지점을 입력하세요"><button class="search">검색</button></form>
+                    <ul class="hashtag flex">
+                        <li>
+                            <p>#가까운</p>
+                        </li>
+                        <li>
+                            <p>#매장찾아</p>
+                        </li>
+                        <li>
+                            <p>#즐겨보자</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="img"><img src="img/store.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <!-- 섹션 메뉴 -->
+    <section id="menu">
+        <div class="wrap padding100">
+            <h2 class="h2">ALL MENU</h2>
+            <p class="p">한 잔에 담은 정성, 요거프레소의 메뉴를 소개합니다.</p>
+            <ul class="menulist menulistani">
+                <li class="menuimg1">
+                    <a href="">
+                        <img src="img/menu1.png" alt="NEW">
+                        <figcaption>NEW</figcaption>
+                    </a>
+                </li>
+                <li class="menuimg2">
+                    <a href="">
+                        <img src="img/menu2.png" alt="COFFEE">
+                        <figcaption>COFFEE</figcaption>
+                    </a>
+                </li>
+                <li class="menuimg3">
+                    <a href="">
+                        <img src="img/menu3.png" alt="NON COFFEE">
+                        <figcaption>NON COFFEE</figcaption>
+                    </a>
+                </li>
+                <li class="menuimg4">
+                    <a href="">
+                        <img src="img/menu4.png" alt="MERRY">
+                        <figcaption>MERRY</figcaption>
+                    </a>
+                </li>
+                <li class="menuimg5">
+                    <a href="">
+                        <img src="img/menu5.png" alt="YOGURT">
+                        <figcaption>YOGURT</figcaption>
+                    </a>
+                </li>
+                <li class="menuimg6">
+                    <a href="">
+                        <img src="img/menu6.png" alt="BLENDED">
+                        <figcaption>BLENDED</figcaption>
+                    </a>
+                </li>
+                <li class="menuimg7">
+                    <a href="">
+                        <img src="img/menu7.png" alt="FRUIT&TEA">
+                        <figcaption>FRUIT&TEA</figcaption>
+                    </a>
+                </li>
+                <li class="menuimg8">
+                    <a href="">
+                        <img src="img/menu8.png" alt="ICE CREAM">
+                        <figcaption>ICE CREAM</figcaption>
+                    </a>
+                </li>
+                <li class="menuimg9">
+                    <a href="">
+                        <img src="img/menu9.png" alt="DESSERT">
+                        <figcaption>DESSERT</figcaption>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- 섹션 메리 판매량 -->
+    <section id="merry">
+        <div class="wrap flex padding100">
+            <h2 class="hide">MERRY</h2>
+            <div class="yogurt flex flex-column">
+                <div class="text-eng">YOGURT? <strong>YOGERPRESSO!</strong></div>
+                <div class="text">시그니처의 무한 경쟁력</div>
+            </div>
+            <div class="img"><img src="img/merry.png" alt=""></div>
+            <div class="count flex flex-column">
+                <div class="seller"><strong>STEADY SELLER</strong><span class="block"></span>누적 판매</div>
+                <div class="million"><span class="counter">2000</span>만 잔 돌파 </div>
+            </div>
+        </div>
+    </section>
+    <!-- 섹션 이벤트 -->
+    <section id="event">
+        <div class="wrap padding100">
+            <h2 class="h1 text-center">EVENT</h2>
+        </div>
+    </section>
+    <!-- 섹션 비디오 -->
+    <section id="video">
+        <div class="wrap padding100">
+            <h2 class="h1 text-center">VIDEO</h2>
+            <p class="p text-center">영상으로 만나보는 요거프레소</p>
+            <ul class="newsstory flex">
+                <li><a href="">YOGER NEWS</a></li>
+                <li><a href="">YOGER STORY</a></li>
+            </ul>
+            <div>비디오1</div>
+            <div>비디오2</div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="wrap padding50">
+            <div class="first flex">
+                <h2 class="h4">YOGERPRESSO</h2>
+                <ul class="sns flex">
+                    <li><a href="">인스타그램</a></li>
+                    <li><a href="">유튜브</a></li>
+                    <li><a href="">카카오톡</a></li>
+                    <li><a href="">네이버블로그</a></li>
+                    <li><a href="">페이스북</a></li>
+                </ul>
+            </div>
+            <div class="second flex">
+                <div class="info">
+                    <ul class="list flex">
+                        <li><a href="">이용약관</a></li>
+                        <li><a href="">개인정보처리방침</a></li>
+                        <li><a href="">이메일무단수집거부</a></li>
+                    </ul>
+                    <address><strong>본사</strong> : 서울특별시 마포구 양화로 122, B1/2층(서교동, LAB7) 현진홀딩스 : </address>
+                    <p class="p">Copyright © All Rights Reserved. Created By Masstige.</p>
+                </div>
+                <div class="phone">
+                    <h3 class="h4">대표번호</h3>
+                    <strong>02.2065.0776</strong>
+                </div>
+                <div class="storephone">
+                    <h3 class="h4">가맹문의</h3>
+                    <strong>1588.0738</strong>
+                </div>
+            </div>
+        </div>
+        <div class="wrap">
+            <ul class="nav flex flex-column">
+                <li><a href="">개설문의<span class="block"></span>1588.0738</a></li>
+                <li><a href="">상담신청</a></li>
+                <li><a href="">TOP</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
