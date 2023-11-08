@@ -9,7 +9,18 @@ section#menu div.wrap {
   background-position-y: 200px;
 }
 section#menu div.wrap h2 {
-  
+  display: flex;
+  font-weight: 500;
+  justify-content: center;
+}
+section#menu div.wrap h2::after {
+  content: "";
+  width: 24px;
+  height: 17px;
+  display: block;
+  background-image: url(../img/logom.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 section#menu div.wrap p {
   margin: 25px 0 60px 0;
@@ -64,4 +75,8 @@ section#menu div.wrap ul li a figcaption {
   display: block;
   width: 100%;
   margin-top: 50px;
+}
+.slick-center{
+  width: 500px;
+  height: 700px;
 }

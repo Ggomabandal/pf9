@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/merry.css">
     <link rel="stylesheet" href="css/video.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/event.css">
     <!-- 자바스크립트 제이쿼리 -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"type=text/javascript></script>
     <script type="text/javascript"></script>
@@ -43,9 +44,60 @@
             slidesToShow: 5,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 1000,
+            autoplaySpeed: 2000,
+            centerMode: true,
+            centerPadding: '60px',
             speed:1000
         });
+    });
+    // 섹션 비디오 클릭 이벤트
+    $(document).ready(function(){
+        $("section#video div.wrap div.youtubestory").hide();
+        $("section#video div.wrap ul li:nth-child(1) a").addClass("red");
+        $("section#video div.wrap ul li:nth-child(1) a").click(function(){
+            $("section#video div.wrap ul li:nth-child(1) a").addClass("red");
+            $("section#video div.wrap ul li:nth-child(2) a").removeClass("red");
+            $("section#video div.wrap div.youtubenews").show();
+            $("section#video div.wrap div.youtubestory").hide();
+            return false;
+        });
+        $("section#video div.wrap ul li:nth-child(2) a").click(function(){
+            $("section#video div.wrap ul li:nth-child(2) a").addClass("red");
+            $("section#video div.wrap ul li:nth-child(1) a").removeClass("red");
+            $("section#video div.wrap div.youtubestory").show();
+            $("section#video div.wrap div.youtubenews").hide();
+            return false;
+        });
+    });
+    // 판매량 애니메이션
+    $(document).ready(function(){
+        // 시작 숫자와 최대 숫자를 정의합니다.
+        const startNumber = 1;
+        const maxNumber = 2000;
+        const animationDuration = 3000; // 3초 동안 애니메이션 실행
+        
+        // 애니메이션을 수행할 요소를 가져옵니다.
+        const counterElement = document.getElementById("counter");
+        
+        // 시작 숫자를 설정합니다.
+        let currentNumber = startNumber;
+        let startTime = null;
+        
+        // 애니메이션 프레임을 업데이트하는 함수를 정의합니다.
+        function updateNumber(timestamp) {
+        if (!startTime) startTime = timestamp;
+        const elapsedTime = timestamp - startTime;
+        const progress = Math.min(elapsedTime / animationDuration, 1);
+        const number = Math.floor(startNumber + (maxNumber - startNumber) * progress);
+        counterElement.textContent = number;
+
+        if (progress < 1) {
+            requestAnimationFrame(updateNumber);
+        }
+        }
+        
+        // 애니메이션을 시작합니다.
+        requestAnimationFrame(updateNumber);
     });
     </script>
 </head>
@@ -191,7 +243,7 @@
             <div class="img"><img src="img/merry.png" alt=""></div>
             <div class="count flex flex-column">
                 <div class="seller"><strong>STEADY SELLER</strong><span class="block"></span>누적 판매</div>
-                <div class="million"><span class="counter">2000</span>만 잔 돌파 </div>
+                <div class="million"><span id="counter" class="counter">2000</span>만 잔 돌파 </div>
             </div>
         </div>
     </section>
@@ -199,6 +251,7 @@
     <section id="event">
         <div class="wrap padding100">
             <h2 class="h1 text-center">EVENT</h2>
+            <p>요거프레소의 다양한 소식을 한눈에</p>
         </div>
     </section>
     <!-- 섹션 비디오 -->
@@ -210,8 +263,8 @@
                 <li><a href="">YOGER NEWS</a></li>
                 <li><a href="">YOGER STORY</a></li>
             </ul>
-            <div>비디오1</div>
-            <div>비디오2</div>
+            <div class="youtube youtubenews"><iframe width="1200" height="675" src="https://www.youtube.com/embed/dmkWh6F0zoo" title="요거프레소, 창업" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            <div class="youtube youtubestory"><iframe width="1200" height="675" src="https://www.youtube.com/embed/9yiYzEjla-4" title="[요거프레소] 😎샷추가 삼총사 😎(feat. 아이스티, 그린티라떼, 페퍼민트티) #shorts #cafeshorts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
         </div>
     </section>
     <!-- footer -->
@@ -247,7 +300,7 @@
                 </div>
             </div>
         </div>
-        <div class="wrap">
+        <div class="remotewrap">
             <ul class="nav flex flex-column">
                 <li><a href="">개설문의<span class="block"></span>1588.0738</a></li>
                 <li><a href="">상담신청</a></li>

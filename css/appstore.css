@@ -113,6 +113,7 @@ section#appstore div.wrap div.store div.contents form button {
 }
 section#appstore div.wrap div.store div.contents ul.hashtag {
   
+  gap: 15px;
 }
 section#appstore div.wrap div.store div.contents ul.hashtag li {
   

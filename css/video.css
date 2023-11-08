@@ -6,12 +6,12 @@ section#video {
 }
 section#video div.wrap {
   
-  line-height: 2;
 }
 section#video div.wrap h2 {
   
   font-weight: 500;
-  position: relative;
+  display: flex;
+  justify-content: center;
 }
 section#video div.wrap h2::after {
   content: "";
@@ -19,15 +19,12 @@ section#video div.wrap h2::after {
   height: 17px;
   display: block;
   background-image: url(../img/logom.png);
-  position: absolute;
-  top: 35px;
   background-size: contain;
   background-repeat: no-repeat;
-  right: calc(50% - 105px);
 }
 section#video div.wrap p {
   
-  margin-bottom: 50px;
+  margin: 25px 0 60px 0;
   color: #999B9D;
   font-size: 18px;
 }
@@ -36,20 +33,12 @@ section#video div.wrap ul {
   justify-content: center;
 }
 section#video div.wrap ul li {
-  
   padding: 0 20px;
   box-sizing: border-box;
-  display: flex;
-  position: relative;
-}
-section#video div.wrap ul li:nth-child(1)::after {
-  content: "";
-  height: 18px;
   display: block;
-  border: 1px solid #DDDDDD;
-  position: absolute;
-  right: -1px;
-  top: 23px;
+}
+section#video div.wrap ul li:nth-child(1) {
+  border-right: 2px solid #DDDDDD;
 }
 
 section#video div.wrap ul li a {
@@ -57,6 +46,22 @@ section#video div.wrap ul li a {
   font-size: 30px;
   color: #666666;
 }
-section#video div.wrap div {
+section#video div.wrap div.youtube {
+  height: 675px;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+div.inline-YTPlayer{
   
+  margin: 0 auto;
+}
+iframe#iframe_youtubenews{
+  
+  width: 1200px !important;
+  height: 675px !important;
+  margin: 0 !important;
+}
+.red{
+  color: #AB1A2D !important;
 }

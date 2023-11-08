@@ -1,0 +1,27 @@
+section#event {
+    
+}
+section#event div.wrap {
+  
+}
+section#event div.wrap h2 {
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+section#event div.wrap h2::after {
+  content: "";
+  width: 24px;
+  height: 17px;
+  display: block;
+  background-image: url(../img/logom.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+section#event div.wrap p {
+  
+  text-align: center;
+  margin: 25px 0 60px 0;
+  color: #999B9D;
+  font-size: 18px;
+}

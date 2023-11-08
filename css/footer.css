@@ -108,6 +108,74 @@ footer div.wrap div.second div.storephone h3 {
   font-size: 20px;
 }
 footer div.wrap div.second div.storephone strong {
-  
   font-size: 43px;
+}
+footer div.remotewrap {
+  
+  position: fixed;
+  right: 20px;
+  bottom: 400px;
+}
+footer div.remotewrap ul {
+  
+}
+footer div.remotewrap ul li:nth-child(1) {
+  width: 125px;
+  text-align: center;
+  padding: 20px 7px;
+  box-sizing: border-box;
+  background-color: #AD172B;
+}
+footer div.remotewrap ul li:nth-child(1) a{
+  color: white;
+  line-height: 1.4;
+  font-size: 19px;
+}
+footer div.remotewrap ul li:nth-child(1) a::before{
+  content: "";
+  width: 43px;
+  height: 42px;
+  display: block;
+  background-image: url(../img/store2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+footer div.remotewrap ul li:nth-child(2) {
+  width: 125px;
+  text-align: center;
+  padding: 20px 7px;
+  box-sizing: border-box;
+  background-color: #222222;
+  border-radius: 0 0 15px 15px;
+}
+footer div.remotewrap ul li:nth-child(2) a{
+  color: white;
+  line-height: 1.4;
+  font-size: 19px;
+}
+footer div.remotewrap ul li:nth-child(2) a::before{
+  content: "";
+  width: 43px;
+  height: 42px;
+  display: block;
+  background-image: url(../img/talk.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+footer div.remotewrap ul li:nth-child(3) {
+  text-align: center;
+  padding: 20px 7px;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+footer div.remotewrap ul li:nth-child(3) a {
+
+  font-weight: 500;
+}
+footer div.remotewrap ul li:nth-child(3) a::before {
+  content: "↑"
 }
